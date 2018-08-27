@@ -71,7 +71,7 @@ Retrieve slider attributes with:
   1. Push to the branch (`git push origin my-new-feature`)
   1. Create new Pull Request
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/speterlin/jquery.circular-sliders.js. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/speterlin/jquery.circular-sliders. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 
 ## License
