@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Slider</title>
+    <style>
+      html, body, canvas {
+        padding: 0px;
+        margin: 0px;
+      }
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="../dist/jquery.circular-sliders.min.js"></script>
+  </head>
+
+  <body>
+    <canvas id="drawing" style="border:1px solid;margin: 20px;" height="300px" width="600px"></canvas>
+    <canvas class="drawing" style="border:1px solid;margin: 20px;" height="300px" width="600px"></canvas>
+    <canvas class="drawing" style="border:1px solid;margin: 20px;" height="300px" width="600px"></canvas>
+    <div class="drawing-1"></div>
+    <script type="text/javascript">
+      $.fn.sliders.defaults.legend.font = "14px Helvetica";
+      $('#drawing').sliders([{step: 20, lineWidth: 15}, {name: "foo-bar"}]);
+      $('.drawing').sliders([{name: "shoo-bar", step: 20, type: "Shoe", legend: {font: "14px Helvetica"}}, {}]);
+    </script>
+  </body>
+</html>

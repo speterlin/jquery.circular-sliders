@@ -1,0 +1,40 @@
+{
+  "name": "jquery.circular-sliders",
+  "version": "1.0.0",
+  "description": "Add concentric circles with jquery and responsively set each value.",
+  "main": "dist/jquery.circular-sliders.js",
+  "module": "dist/jquery.circular-sliders.esm.js",
+  "scripts": {
+    "build": "rollup -c",
+    "lint": "eslint src",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/speterlin/jquery.circular-sliders.js.git"
+  },
+  "keywords": [
+    "jquery",
+    "jquery-plugin",
+    "circular",
+    "sliders",
+    "responsive"
+  ],
+  "author": "Sebastian Peterlin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/speterlin/jquery.circular-sliders.js/issues"
+  },
+  "homepage": "https://github.com/speterlin/jquery.circular-sliders.js#readme",
+  "devDependencies": {
+    "eslint": "^5.4.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "rollup": "^0.64.1",
+    "rollup-plugin-commonjs": "^9.1.5",
+    "rollup-plugin-eslint": "^5.0.0",
+    "rollup-plugin-node-resolve": "^3.3.0",
+    "rollup-plugin-terser": "^1.0.1"
+  },
+  "dependencies": {}
+}
