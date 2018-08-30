@@ -2,6 +2,8 @@
 
 A Jquery plugin which allows you to draw concentric responsive circular sliders.
 
+![Demo Animation](../assets/jquery.circular-sliders.gif?raw=true)
+
 ## Usage
 
 Create a canvas(es) where you would like the sliders to go:
