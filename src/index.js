@@ -9,7 +9,7 @@ if (typeof $ === 'undefined') {
 
 $.fn.sliders = function (slidersOptions) {
   this.each(function () {
-    if (!$(this).is('canvas')) { throw new Error('Circular Sliders must be called on a Canvas.'); }
+    if (!$(this).is('canvas')) { throw new Error('sliders() must be called on a Canvas.'); }
     const canvas = this;
     const sliders = [];
     const canvasDefaults = {};
@@ -55,7 +55,7 @@ $.fn.sliders.defaults = {
 };
 
 $.fn.findSliderByName = function (name) {
-  if (!this.is('canvas')) { throw new Error('findSliderByName must be called on a Canvas.'); }
+  if (!this.is('canvas')) { throw new Error('findSliderByName() must be called on a Canvas.'); }
   const canvas = this[0];
   return canvas.sliders.filter(slider => slider.name === name)[0];
 };

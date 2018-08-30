@@ -16,6 +16,7 @@
   "keywords": [
     "jquery",
     "jquery-plugin",
+    "plugin",
     "circular",
     "sliders",
     "responsive"
@@ -25,7 +26,7 @@
   "bugs": {
     "url": "https://github.com/speterlin/jquery.circular-sliders/issues"
   },
-  "homepage": "https://github.com/speterlin/jquery.circular-sliders#readme",
+  "homepage": "https://github.com/speterlin/jquery.circular-sliders",
   "devDependencies": {
     "eslint": "^5.4.0",
     "eslint-config-airbnb-base": "^13.1.0",
